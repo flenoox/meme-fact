@@ -1,0 +1,12 @@
+{
+  "name": "meme-fact",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "dev": "pnpm --filter meme-fact dev",
+    "build": "pnpm --filter meme-fact build",
+    "build:firefox": "pnpm --filter meme-fact build:firefox",
+    "build:chrome": "pnpm --filter meme-fact build:chrome"
+  }
+}
